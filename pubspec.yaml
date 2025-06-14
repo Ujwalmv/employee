@@ -36,17 +36,15 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   intl: ^0.20.2
-  lucide_icons: ^0.257.0
   firebase_core: ^3.4.1
   flutter_local_notifications: ^17.2.1+2
   firebase_auth: ^5.1.2
   googleapis:
-  share_plus: ^11.0.0
   googleapis_auth: ^1.6.0
   firebase_messaging: ^15.0.3
   cloud_firestore: ^5.6.8
   get: ^4.7.2
-  flutter_riverpod: ^2.4.0
+
 
 
 dev_dependencies:

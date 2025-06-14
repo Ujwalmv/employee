@@ -22,6 +22,7 @@ class EmployeeController extends GetxController {
     final snapshot = await _firestore.collection('employees').get();
     if (snapshot.docs.isNotEmpty) return;
 
+    // Add sample employees
     final sampleEmployees = [
       Employee(
         id: '1',
